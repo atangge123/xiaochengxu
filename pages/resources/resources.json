@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "资源",
+  "navigationBarBackgroundColor": "#ff2",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "fffff4",
+  "backgroundTextStyle":"drak",
+  "enablePullDownRefresh": true
+}

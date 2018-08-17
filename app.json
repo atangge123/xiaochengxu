@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/special/special",
+    "pages/resources/resources",
+    "pages/sousuo/sousuo",
+    "Componets/nave/one",
+    "Componets/nave2/two",
+    "Componets/nave3/three",
+    "Componets/nave4/four",
+    "Componets/nave5/five",
+    "Componets/nave6/six",
+    "Componets/nave7/seven",
+    "Componets/nave8/eight"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./image/home.png",
+        "selectedIconPath": "./image/home1.png"
+      },
+      {
+        "pagePath": "pages/special/special",
+        "text": "专题",
+        "iconPath": "./image/rizhi.png",
+        "selectedIconPath": "./image/rizhi1.png"
+      },
+      {
+        "pagePath": "pages/resources/resources",
+        "text": "资源",
+        "iconPath": "./image/xiangqing.png",
+        "selectedIconPath": "./image/xiangqing1.png"
+      },
+      {
+        "pagePath": "pages/sousuo/sousuo",
+        "text": "搜索",
+        "iconPath": "./image/sousuo.png",
+        "selectedIconPath": "./image/sousuo1.png"
+      }
+    ]
+  }
+}

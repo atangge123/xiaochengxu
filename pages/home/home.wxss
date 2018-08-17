@@ -1,0 +1,31 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.diveoassambly{
+  border: 1px solid black;
+}
+.imgs{
+  width:40px;
+  height: 40px;
+  margin-top: 3px;
+}
+.allassambly{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+.diveoassambly{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:47%;
+  margin-top: 5px;
+}
+.detailes{
+ font-size: 12px;
+}

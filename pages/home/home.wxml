@@ -1,0 +1,28 @@
+<!--logs.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="{{circular}}">
+      <block wx:for="{{imgUrls}}" wx:key="{{item}}">
+        <swiper-item wx:key="{{item}}">
+            <image src="{{item}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+</swiper>
+ <button bindtap='ongao' type="primary" class="searBtn">查询</button>
+
+
+
+
+<view class="btn-area allassambly"> 
+  <view wx:for="{{list}}" wx:key="{{item.id}}" class='diveoassambly'>
+    
+        <navigator url="{{item.urlnave}}" hover-class="navigator-hover">
+            <image src="{{item.url}}" class="imgs" />
+        </navigator>
+        <navigator url="{{item.urlnave}}" hover-class="navigator-hover">
+            <view>
+              <view class='deveodev'>{{item.title}}</view>
+              <view class='deveodev detailes'>{{item.details}}</view>
+            </view>  
+        </navigator>
+</view>
+</view>

@@ -1,0 +1,10 @@
+<view class="header">
+  <div catchtap='changname' class="{{classname}}"  style="font-size:12px">最新</div>
+  <div catchtap='changname2' class="{{classname2}}" style="font-size:12px;margin-left:10px;">javaScript</div>
+</view>
+<view class='subject' wx:for="{{list}}" wx:key="{{item.id}}">
+  <image class='imgs' src='{{item.url}}'></image>
+  <view class="footer">{{item.title}}</view>
+  <view class="footer2">{{item.Data}}</view>
+  <view bindtap='addspecial' class='addspecial' id="{{item.id}}">收藏</view>
+</view>
